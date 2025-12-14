@@ -32,7 +32,7 @@
 
   <div class="car-list d-flex flex-wrap gap-3">
     <div class="card" *ngFor="let auto of filteredAutos" style="width: 18rem;">
-      <img [src]="'/images/' + auto.photo" class="card-img-top" alt="{{auto.model}}">
+      <img [src]="'assets/images/' + auto.photo" class="card-img-top" alt="{{auto.model}}">
       <div class="card-body">
         <h5>{{ auto.brand }} - {{ auto.model }}</h5>
         <p>{{ auto.price }} TND / day</p>
