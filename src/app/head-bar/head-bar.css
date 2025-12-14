@@ -1,0 +1,12 @@
+.header {
+  background: linear-gradient(135deg, #0b5ed7, #003f88);
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 14px;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  font-weight: 700;
+}
